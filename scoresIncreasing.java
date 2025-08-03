@@ -1,0 +1,8 @@
+public class scoresIncreasing {
+     for(int i = 1; i < scores.length; i++) {
+        if(scores[i] < scores[i-1])
+            return false;
+    }
+                
+    return true;
+}
